@@ -1,0 +1,32 @@
+# Çalışma zamanı log dosyaları
+*.log
+
+# PowerShell geçici/yedek dosyaları
+*.ps1.bak
+
+# Windows sistem dosyaları
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# macOS sistem dosyaları (geliştirme yapan biri Mac kullanıyor olabilir)
+.DS_Store
+
+# Editör ve IDE klasörleri
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test/geliştirme için kullandığımız geçici dosyalar
+_test*.ps1
+_dogrula*.ps1
+_bom*.ps1
+_canli*.ps1
+_son*.ps1
+
+# Yedek/eski sürümler
+*~
+*.orig
+*.rej
